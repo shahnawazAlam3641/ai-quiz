@@ -6,11 +6,12 @@ import { useNavigate } from 'react-router-dom';
 import LoadingSpinner from './LoadingSpinner';
 
 const topics = [
+  'SAP FICO: Consultant / End User
   'Tally Prime',
   'GST',
   'TDS',
   'Excel',
-  'Accountancy / Journal Entries'
+  'Accountancy / Journal Entries / Profit and Loss Account / Balance Sheet'
 ];
 
 const difficulties = ['Easy', 'Medium', 'Hard'];
