@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import LoadingSpinner from './LoadingSpinner';
 
 const topics = [
-  'SAP FICO: Consultant / End User
+  'SAP FICO: Consultant / End User',
   'Tally Prime',
   'GST',
   'TDS',
