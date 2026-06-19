@@ -6,7 +6,7 @@ const GEMINI_API_KEY = import.meta.env.VITE_GEMINI;
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 export const generateQuestions = async (topic, difficulty) => {
-  const prompt = `You are an expert question setter for accounting exams. Generate 10 multiple-choice questions for the topic "${topic}" at "${difficulty}" level.  
+  const prompt = `You are an expert Indian question setter for accounting exams. Generate 10 multiple-choice questions for the topic "${topic}" at "${difficulty}" level.  
 Each question should have:
 - A clear, relevant accounting question  
 - Four options labeled 'A', 'B', 'C', 'D'
